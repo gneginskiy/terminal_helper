@@ -1,4 +1,5 @@
 # c.sh - Terminal Helper Script
+<img width="815" alt="image" src="https://github.com/user-attachments/assets/53ce4443-ea01-43aa-9455-0fa245bbc69e">
 
 ## Description
 c.sh is a versatile shell script designed to help users automate the interaction with the OpenAI API directly from macOS and Linux terminals. It detects the operating system, configures API credentials, and parses arguments to communicate with the OpenAI GPT-4 model, facilitating the conversion of natural language instructions into terminal commands.
