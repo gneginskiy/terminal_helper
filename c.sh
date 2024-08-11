@@ -1,4 +1,6 @@
 #!/bin/bash
+# Set your OpenAI API key
+OPENAI_API_KEY='YOUR_API_KEY_HERE'
 
 # Detect operating system
 OS=$(uname -s)
@@ -9,8 +11,6 @@ else
     OSS="Linux"
 fi
 
-# Set your OpenAI API key
-OPENAI_API_KEY='YOUR_API_KEY_HERE'
 
 
 # Verify if an argument is provided
