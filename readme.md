@@ -1,4 +1,4 @@
-# c.sh - Terminal Helper Script
+# c.sh - Terminal Helper using OpenAI API
 <img width="815" alt="image" src="https://github.com/user-attachments/assets/53ce4443-ea01-43aa-9455-0fa245bbc69e">
 
 ## Description
