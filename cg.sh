@@ -34,7 +34,7 @@ output=$(curl -s "https://api.openai.com/v1/chat/completions" \
         "content": "'"${argz}"'"
       }
     ]
-  }' | jq -r '.choices[0].message.content');
+  }' | jq -r '.choices[0].message.content' | sed 's/\\n/\\r\\n/g' );
 
 # Output the result
-echo $output
+echo "$output"
