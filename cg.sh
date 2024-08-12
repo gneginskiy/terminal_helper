@@ -23,7 +23,7 @@ output=$(curl -s "https://api.openai.com/v1/chat/completions" \
   -H "Content-Type: application/json" \
   -H "Authorization: Bearer $OPENAI_API_KEY" \
   --data-raw '{
-    "model": "gpt-4",
+    "model": "gpt-4o",
     "messages": [
       {
         "role": "system",
