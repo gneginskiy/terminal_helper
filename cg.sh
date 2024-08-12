@@ -27,7 +27,7 @@ output=$(curl -s "https://api.openai.com/v1/chat/completions" \
     "messages": [
       {
         "role": "system",
-        "content": "respond without extra words. only the code"
+        "content": "respond without extra words. only the code. do not use special formatting and ``` "
       },
       {
         "role": "user",
