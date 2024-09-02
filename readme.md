@@ -1,4 +1,4 @@
-# c.sh - Terminal Helper using OpenAI API
+# c.sh - Terminal Helper using OpenAI API | cg.sh - GPT in unix terminal 
 <img width="815" alt="image" src="https://github.com/user-attachments/assets/53ce4443-ea01-43aa-9455-0fa245bbc69e">
 
 ## Description
@@ -37,6 +37,14 @@ To get the terminal command for listing all files in the current directory:
 ```bash
 ./c.sh "list all files"
 ```
+
+##cg.sh
+`cg.sh` works in a similar manner, but it also requires jq to be installed
+<img width="549" alt="image" src="https://github.com/user-attachments/assets/9704c60b-b753-4b9f-81b8-99d11844d8be">
+
+## How to run on windows? 
+Install git bash, and create a batch file to run `c.sh` / `cg.sh`, enjoy. 
+<img width="888" alt="image" src="https://github.com/user-attachments/assets/178de26f-096c-4d64-b2cb-abfd5265bed6">
 
 ## Security Note
 This script requires your OpenAI API key. Ensure that you keep this key secure and do not expose it in shared or public environments.
